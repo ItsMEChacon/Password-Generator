@@ -38,7 +38,7 @@ function generatePassword() {
         for(var i = 0; i < length; i++){
         
         var inputs = character[Math.floor(Math.random() * character.length)]
-        document.getElementById("generate").innerHTML += inputs
+        document.getElementById("#password").innerHTML += inputs
        
         console.log(inputs)
     }
@@ -48,4 +48,3 @@ function generatePassword() {
 
 password.addEventListener('click', generatePassword);
 
-// Add event listener to generate button
